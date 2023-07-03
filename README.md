@@ -11,6 +11,8 @@ Tasks:
 Requirements:
 pip install tiktoken
 
-Execution:
-python GraphqlGptQueryEngine.py
+Execution:<br/>
+Clone the repository, then type the following:<br/>
+cd Weave <br/>
+python GraphqlGptQueryEngine.py <br/>
 
