@@ -8,10 +8,10 @@ Tasks:
 1. Handle single step queries e.g. "What are the targets of vorinostat?", "Find drugs that are used for treating ulcerative colitis." etc.
 2. 2-step queries e.g. "Which diseases are associated with the genes targetted by fasudil?", "Show all the diseases that have at least 5 pathways associated with Alzheimer"
 
-Requirements:
+Requirements:<br/>
 pip install tiktoken
 
-Execution:<br/>
+Execution:<br/><br/>
 Clone the repository, then type the following:<br/>
 cd Weave <br/>
 python GraphqlGptQueryEngine.py <br/>
