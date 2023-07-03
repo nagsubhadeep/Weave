@@ -27,7 +27,7 @@ class GraphQLGPTEngine:
     def load_graphql_schema(self):
         try: 
             response = requests.get(self.base_url+"/schema")
-            self.schema = response.text
+            self.schema = "#Full graphql schema:\n\n"+response.text
         except requests.exceptions.HTTPError as err:
             print(err)
         
